@@ -136,6 +136,7 @@ set(
     0143-exponential_backoff_mock.c
     0144-idempotence_mock.c
     0145-brokers-same-host-port.c
+    0146-purge-brokers.c
     8000-idle.cpp
     8001-fetch_from_follower_mock_manual.c
     test.c

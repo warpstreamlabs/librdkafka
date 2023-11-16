@@ -258,6 +258,7 @@ _TEST_DECL(0142_reauthentication);
 _TEST_DECL(0143_exponential_backoff_mock);
 _TEST_DECL(0144_idempotence_mock);
 _TEST_DECL(0145_broker_same_host_port);
+_TEST_DECL(0146_purge_brokers);
 
 /* Manual tests */
 _TEST_DECL(8000_idle);
@@ -513,6 +514,7 @@ struct test tests[] = {
     _TEST(0143_exponential_backoff_mock, TEST_F_LOCAL),
     _TEST(0144_idempotence_mock, TEST_F_LOCAL, TEST_BRKVER(0, 11, 0, 0)),
     _TEST(0145_broker_same_host_port, 0),
+    _TEST(0146_purge_brokers, 0),
 
 
     /* Manual tests */
